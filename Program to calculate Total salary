@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+ float salary,DA,HR,TS;
+ printf("Enter Ramesh's Salary:\n");
+ scanf("%f",&salary);
+ DA  =(0.4*salary );
+ printf(Ramesh's Dearness allowance is %f",DA);
+ HR  =(0.2*salary);
+ printf("Ramesh's House Rent is %f",HR);
+ TS= (salary+DA+HR);
+ printf("Total Salary is  %f",TS); 
+ return 0;
+}
