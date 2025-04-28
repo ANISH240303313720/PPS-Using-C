@@ -1,0 +1,14 @@
+#include <stdio.h>
+int maim()
+{
+  int length,breadth,area,perimeter;
+  printf("Enter Length:");
+  scanf("%d",&length);
+  printf("Enter Breadth:");
+  scanf("%d",&breadth);
+  area=(length*breadth);
+  printf("Area of Rectangle is %d \n",area);
+  perimeter= 2*(length+breadth);
+  printf("Perimeter of Rectangle is %d \n",perimeter);
+  return 0;
+}
