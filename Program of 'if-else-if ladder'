@@ -1,0 +1,44 @@
+#include <stdio.h>
+ int main()
+ {
+    int marks;
+    printf("Enter marks:\t");
+    scanf("%d", &marks);
+    if(marks>100)      
+    {
+      print("invalid marks");
+    }
+    else if(marks>=90)
+     {
+           print("Ex");
+     }
+    else if(marks>=80)
+      { 
+            print("A");
+      }
+    else if(marks>=70)
+      { 
+          print("B");
+      }
+    else if(marks>=60)
+      {
+          print ("c");
+      }
+    else if(marks>=50);
+      {
+          print("D");
+      }
+    else if(marks>=40)
+      {
+          print("E");
+      }
+    else if(marks<40 && marks>=0)
+      { 
+          print ("fail");
+      }
+     else
+      {
+          printf("Invalid marks");
+      }
+    return 0;
+    }
