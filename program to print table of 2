@@ -5,7 +5,7 @@ int main()
   for(i=1; i<=10; i++)
   {
    table= (num*i)
-   print("%d",\n,num);
+   print("%d\n",num);
   }
   return 0;
 }
