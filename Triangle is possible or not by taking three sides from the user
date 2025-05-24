@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a, b, c;
+
+    printf("Enter the first side:\t");
+    scanf("%d", &a);
+    printf("Enter the second side:\t");
+    scanf("%d", &b);
+    printf("Enter the third side:\t");
+    scanf("%d", &c);
+
+    if (a == 0 || b == 0 || c == 0) 
+    {
+        printf("The triangle is not possible");
+    } 
+    else if (a + b > c && a + c > b && b + c > a)
+    {
+        printf("The triangle is possible");
+    } 
+    else 
+    {
+        printf("The triangle is not possible");
+    }
+
+    return 0;
+}
