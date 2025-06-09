@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{ 
+  int pin,i;
+for(i=1;i<=3;i++)
+{
+ printf("Enter the PIN:\t");
+ scanf("%d",&pin);
+ if(pin==2014)
+ {
+ printf("Please Collect your Cash");
+ break;
+ }
+ else if(i==3)
+ {
+  printf("Your ATM card is block for 24 hours");
+ }
+ else
+ {
+   printf("Incorrect PIN, please try again");
+ }
+}
+return 0;
+}
